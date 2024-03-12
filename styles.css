@@ -106,6 +106,7 @@ body{
 
 .footer{
     position: fixed;
+    padding: 10px;
     bottom: 0;
     font-size: 12px;
     color: rgb(65, 65, 65);
