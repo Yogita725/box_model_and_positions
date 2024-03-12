@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Questrial&display=swap');
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+
+.header{
+    margin: 10px 0px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.link{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(97, 96, 96);
+    font-weight:400;
+}
+
+.link:hover{
+    color: black;
+    font-weight: 500;
+}
+
+.active{
+    color: rgb(3, 6, 27);
+    font-weight: 500;
+}
+
+.card{
+    width: 260px;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+
+
+.center{
+    text-align: center;
+}
+
+.wave-img{
+    height: 30px;
+}
+
+.heading{
+    font-size: 30px;
+    margin-top: -0.5px;
+}
+
+.intro{
+    font-size: 14px;
+    color: gray;
+    margin-top: -16px;
+    margin-bottom: 30px;
+}
+
+.btn{
+    width: 100%;
+    margin: 3px;
+    padding: 8px;
+    border: none;
+    text-align: left;
+    border-radius: 8px;
+    font-size: 12px;
+    background-color: rgb(237, 237, 237);
+}
+
+.btn1{
+    width: 100%;
+    margin: 3px;
+    padding: 8px;
+    border: none;
+    text-align: left;
+    border-radius: 8px;
+    font-size: 12px;
+    background-color: white;
+}
+
+
+.email{
+    height: 240px;
+}
+
+.heading1{
+    font-size: 30px;
+}
+
+.intro1{
+    font-size: 14px;
+    color: gray;
+    margin-top: -14px;
+    margin-bottom: 20px;
+}
+
+.bold{
+    color: black;
+}
+
+.otp{
+    width: 95%;
+    /* border: 2px groove rgb(128, 29, 234); */
+    border: 1.5px solid rgb(181, 131, 234);
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    /* box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.19); */
+}
+
+.otp[type=text]:focus {
+    border: 1px solid rgb(181, 131, 234);
+    outline: none;
+  }
+
+.continue{
+    width: 102%;
+    /* border: 2px groove rgb(128, 29, 234); */
+    border: 1px groove rgb(181, 131, 234);
+    text-align: center;
+    padding: 9px;
+    border-radius: 9px;
+    background-color:rgb(128, 29, 234) ;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.phone{
+    height: 30px;
+}
+
+.heading2{
+    font-size: 30px;
+    margin-top: -1px;
+}
+
+.intro2{
+    font-size: 12px;
+    color: gray;
+    margin-top: -14px;
+    margin-bottom: 23px;
+}
+
+.footer{
+    color: rgb(200, 200, 200);
+    font-size: 11.5px;
+    text-align: left;
+}
+
+.credit_card{
+    width: 30px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card_number{
+    width: 95%;
+    border: 1.5px solid rgb(181, 131, 234);
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    background-image: url("./images/credit-card_skeleton.png");
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    background-size: 20px;
+    font-size: 12px;
+    color: rgb(67, 67, 67);
+}
+
+.card_number[type=text]:focus {
+    border: 2px groove rgb(181, 131, 234);
+    outline: none;
+  }
+
+.footer1{
+    color: rgb(135, 134, 134);
+    font-size: 11px;
+    margin-top: 20px;
+    margin-bottom: -2px;
+}
+
+.building{
+    height: 30px;
+}
+
+.name{
+    font-size: 12px;
+    padding: 10px 10px 10px -0.5px;
+    color: gray;
+    text-align:left;
+}
+
+.left{
+    text-align: left;
+}
+
+.industry{
+    width: 103%;
+    border: 1.5px solid rgb(181, 131, 234);
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    background-image: url("./images/artist-palette.png");
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    background-size: 20px;
+    font-size: 12px;
+}
+
+.role{
+    width: 103%;
+    border: 1.5px solid rgb(181, 131, 234);
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    background-image: url("./images/direct-hit.png");
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    background-size: 20px;
+    font-size: 12px;
+}
+
+.size{
+    width: 103%;
+    border: 1.5px solid rgb(181, 131, 234);
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
